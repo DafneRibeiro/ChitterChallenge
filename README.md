@@ -1,15 +1,10 @@
 Chitter Challenge
 =================
 
-* Feel free to use Google, your notes, books, etc. but work on your own
-* If you refer to the solution of another coach or trainee, please put a link to that in your README
-* If you have a partial solution, **still check in a partial solution**
-* You must submit your work by 9:30am Monday morning
+
 
 Challenge:
 -------
-
-As usual please start by forking this repo.
 
 We are going to write a small twitter clone that will allow users to post messages to a public wall.
 
@@ -69,7 +64,6 @@ I want to reply to a peep from another trainee.
 
 Initial setup 
 ------------------------------------------------------------------------------------
-I used ReactJs, NodeJs an express to build this project. For the database i used mongoDB
 
 To initial setup, open the terminal and run both folders, Public and server on terminals with the command npm start, and it should connect the server and the DataBase.
 
@@ -103,16 +97,28 @@ I created an app using npx command, and identifying the components using a ui sk
 ![](image1(4).jpeg)
 ![](image2(1).jpeg)
 
-then i created the components, and started working on styling at the same time, again my first option was bootstrap, but had little time to make it fully work so i decided to stick to CSS, styling needs more improving and will go back to it to make it look better.
+Then i created the components, and started working on styling at the same time, again my first option was bootstrap, but had little time to make it fully work so i decided to stick to CSS, styling needs more improving and will go back to it to make it look better.
 
 
-once you login you are directed to the feed page, that has a box for you to peep and shows the peeps in chronological order. You also have the option to logout and be redirected to the login page where you can see your peeps even if you are not logged in.
+Once you login you are directed to the feed page, that has a box for you to peep and shows the peeps in chronological order. You also have the option to logout and be redirected to the login page where you can see your peeps even if you are not logged in.
 
 
-to make the peep appear in chronological order i used .reverse()
+To make the peep appear in chronological order i used .reverse()
 and for the peep to load after submiting it and clearing the peepbox i used window.location = '/' on the file peep.jsx
 
+Build with
+----
+I used ReactJs, NodeJs an express to build this project. For the database i used mongoDB
 
+* ReactJs
+* NodeJs
+* ExpressJs
+* MongoDB 
+ 
 
+Known Issues
+----
+1. I had a problem displaying the date with local
+2. I wrote some tests but they were passing and then I couldnt make them pass anymore.
 
 
